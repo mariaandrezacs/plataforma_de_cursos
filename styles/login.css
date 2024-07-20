@@ -54,7 +54,7 @@ body {
     font-size: 16px;
     margin-top: 20px;
     padding: 12px;
-    border:none;
+    border: none;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -81,4 +81,15 @@ a {
     border:none;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+/* Estilos para telas menores, como smartphones */
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para telas menores */
+    
+}
+
+/* Estilos para telas maiores, como tablets e desktops */
+@media only screen and (min-width: 601px) {
+    /* Estilos específicos para telas maiores */
 }
