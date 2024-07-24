@@ -1,1 +1,24 @@
 /* PAGINA PRINCIPAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5c3fac;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+}
+
+.cabecalho-link {
+    display: flex;
+    
+}
