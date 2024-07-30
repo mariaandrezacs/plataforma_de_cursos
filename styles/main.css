@@ -26,7 +26,7 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-around;
-    border-radius: 25px;
+    border-radius: 20px;
 
 }
 
@@ -58,21 +58,21 @@ main {
 section {
     margin-bottom: 20px;
     border: 2px solid #ddd;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 article {
     background: #fff;
     padding: 20px;
     border: 2px solid #ddd;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 aside {
     background: #e2e2e2;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 25px;
+    border-radius: 20px;
 
 }
 
