@@ -9,20 +9,16 @@ body {
     background: linear-gradient(235deg, rgb(61, 113, 182) 0%,rgb(100, 90, 214) 100%);
     background-size: cover;
     height: 100vh;
-
-}
-
-.container {
     display: flex;
     justify-content: center; /* centraliza horizontalmente */
     align-items: center; /* centraliza verticalmente */
+
 }
 
-.cabecalho-link {
-    display: flex;
+.title {
+    display: inline;
 }
 
-.container-text {
-    display: block;
-    
+nav {
+    list-style-type: none;
 }
