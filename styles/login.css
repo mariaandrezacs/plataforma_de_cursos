@@ -24,6 +24,7 @@ body {
 #cabecalho{
     background: linear-gradient(235deg, rgb(75,63,197) 0%,rgb(79,145,214) 100%);
     text-align: center;
+    color: rgb(231, 224, 224);
     font-size: 20px;
     border-radius: 25px;
     margin-bottom: 10px;
