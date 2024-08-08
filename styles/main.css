@@ -1,8 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
 
 }
 
@@ -81,11 +84,8 @@ footer {
     background: rgb(76, 84, 201);
     color: #fff;
     text-align: center;
-    padding: 1px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
+
 /* Estilos para o container do grid */
 .grid-container {
     display: grid;
@@ -103,4 +103,17 @@ footer {
     padding: 20px;
     font-size: 30px;
     border-radius: 15px;
+}
+
+/* Consultas de mídia para telas menores */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
 }
