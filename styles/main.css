@@ -27,7 +27,7 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-around;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 
@@ -53,27 +53,27 @@ nav a:hover {
 
 main {
     background: #f4f4f4;
-    padding: 20px; 
+    padding: 10px; 
 }
 
 section {
     margin-bottom: 20px;
     border: 2px solid #ddd;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 article {
     background: #fff;
     padding: 20px;
     border: 2px solid #ddd;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 aside {
     background: #e2e2e2;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 
@@ -81,8 +81,26 @@ footer {
     background: rgb(76, 84, 201);
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+/* Estilos para o container do grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cria 3 colunas de tamanho igual */
+    grid-gap: 10px; /* Espaçamento entre os itens */
+    padding: 10px;
+    
+}
+
+/* Estilos para os itens do grid */
+.grid-item {
+    background: rgb(76, 84, 201);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 15px;
 }
