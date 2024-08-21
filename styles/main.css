@@ -84,6 +84,7 @@ aside {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 15px;
+    margin-bottom: 6px;
 
 }
 
@@ -113,6 +114,15 @@ footer {
     border-radius: 15px;
     text-decoration: none;
 }
+
+#sobre {
+    background: #e2e2e2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+
+}
+
 
 /* Consultas de mídia para telas menores */
 @media (max-width: 768px) {
