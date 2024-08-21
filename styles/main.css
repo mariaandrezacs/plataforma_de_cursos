@@ -30,7 +30,7 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-around;
-    border-radius: 15px;
+    border-radius: 10px;
 
 }
 
@@ -39,6 +39,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    font-size: 18px;
 }
 
 nav li {
@@ -48,10 +49,16 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+    
 }
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: #f4f4f4;
 }
 
 main {
@@ -93,6 +100,7 @@ footer {
     grid-gap: 10px; /* Espaçamento entre os itens */
     padding: 10px;
     
+    
 }
 
 /* Estilos para os itens do grid */
@@ -103,6 +111,7 @@ footer {
     padding: 20px;
     font-size: 30px;
     border-radius: 15px;
+    text-decoration: none;
 }
 
 /* Consultas de mídia para telas menores */

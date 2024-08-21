@@ -13,3 +13,6 @@ function loadHTML(elementId, filePath) {
 // Carregar os templates
 loadHTML('header', IDBIndex('login'));
 loadHTML('footer', '');
+
+
+
