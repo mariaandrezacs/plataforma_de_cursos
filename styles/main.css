@@ -123,6 +123,10 @@ footer {
 
 }
 
+.conteudo.active {
+    background: rgb(76, 84, 201);
+}
+
 
 /* Consultas de mídia para telas menores */
 @media (max-width: 768px) {
