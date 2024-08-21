@@ -115,13 +115,6 @@ footer {
     text-decoration: none;
 }
 
-#sobre {
-    background: #e2e2e2;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-
-}
 
 .conteudo.active {
     background: rgb(76, 84, 201);
