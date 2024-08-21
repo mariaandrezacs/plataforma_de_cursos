@@ -26,18 +26,20 @@ body {
     text-align: center;
     color: rgb(231, 224, 224);
     font-size: 20px;
-    border-radius: 25px;
+    border-radius: 5px;
     margin-bottom: 10px;
+    
 }
 
 .form {
-    width: 250px;
+    width: 300px;
     border-radius: 10px; 
     box-shadow: 0 0 10px 0 #444;
     padding: 20px;
-    font-size: 12px;
+    font-size: 16px;
     background-color: #FFF;
-    margin-top: 200px;
+    margin-top: 75px;
+    font-weight: bold;
 }
 
 .form input {
@@ -86,6 +88,12 @@ a {
     border:none;
     font-weight: bold;
     letter-spacing: 1px;
+}
+
+h4 {
+    text-align: center;
+    background-color: #e0dfe3;
+    border-radius: 5px;
 }
 
 /* Estilos para telas menores, como smartphones */

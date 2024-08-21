@@ -7,100 +7,6 @@
     <link rel="shortcut icon" href="imgs/logo-icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css">
 
-    <!--
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-
-        }
-
-        header, nav, main, section, article, aside, footer {
-            padding: 20px;
-
-        }
-
-        header {
-            background: linear-gradient(235deg, rgb(75,63,197) 0%,rgb(79,145,214) 100%);
-            color: #fff;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-
-        nav {
-            background: rgb(76, 84, 201);
-            color: #fff;
-            display: flex;
-            justify-content: space-around;
-            border-radius: 25px;
-
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav li {
-            margin: 0 10px;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        main {
-            background: #f4f4f4;
-            padding: 20px; 
-        }
-
-        section {
-            margin-bottom: 20px;
-            border: 2px solid #ddd;
-            border-radius: 25px;
-        }
-
-        article {
-            background: #fff;
-            padding: 20px;
-            border: 2px solid #ddd;
-            border-radius: 25px;
-        }
-
-        aside {
-            background: #e2e2e2;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 25px;
-
-        }
-
-        footer {
-            background: rgb(76, 84, 201);
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-    </style>
-        -->
 </head>
 <body>
     <header>
@@ -108,8 +14,8 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/contato">Contatos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contatos</a></li>
                 <li><a id="login" href="./templates/login.html">Login</a></li>
             </ul>
         </nav>
@@ -166,7 +72,7 @@
             </p>
         </aside>
         <aside id="vue">
-            <h2>JAVA SCRIPT</h2>
+            <h2>VUE</h2>
             <p>
                 Nível: Básico <br>
                 Carga Horária: 20h <br>
@@ -201,8 +107,19 @@
     </main>
 
     <div>
-        <div>Sobre</div>
-        <div>Contatos</div>
+    <div id="sobre">
+        <h2>
+            Sobre Nós
+        </h2>
+        <p> 
+            Na <span>MACS CURSOS</span>, acreditamos que o aprendizado transforma vidas. <br>
+            Oferecemos cursos variados, acessíveis e de alta qualidade, projetados para atender <br>
+            às suas necessidades pessoais e profissionais. Nossa missão é tornar o conhecimento <br>
+            acessível a todos, com tecnologia avançada, conteúdo elaborado por especialistas e uma <br>
+            comunidade engajada. Aprenda no seu ritmo, em qualquer lugar, e continue evoluindo com a gente.
+        </p>
+    </div>
+    <div>Contatos</div>
     </div>
     <footer>
         <p>&copy; 2024 Macs Cursos. Todos os direitos reservados.</p>
