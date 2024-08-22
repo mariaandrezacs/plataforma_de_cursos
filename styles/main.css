@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -113,6 +114,7 @@ footer {
     font-size: 30px;
     border-radius: 15px;
     text-decoration: none;
+    
 }
 
 
