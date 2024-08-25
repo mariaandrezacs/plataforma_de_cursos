@@ -103,6 +103,7 @@ footer {
     padding: 10px;
     
     
+    
 }
 
 /* Estilos para os itens do grid */
@@ -115,11 +116,17 @@ footer {
     border-radius: 15px;
     text-decoration: none;
     
+    
 }
 
 
+/* justify-content: center; Centraliza horizontalmente */
+/*align-items: center; /* Centraliza verticalmente */
+
 .conteudo.active {
     background: rgb(76, 84, 201);
+    
+
 }
 
 
