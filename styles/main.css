@@ -123,6 +123,8 @@ footer {
 }
 
 
+
+
 /* Consultas de mídia para telas menores */
 @media (max-width: 768px) {
     .grid-container {
