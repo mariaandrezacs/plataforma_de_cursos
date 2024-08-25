@@ -95,6 +95,10 @@ footer {
     text-align: center;
 }
 
+i {
+    font-size: 30px;
+}
+
 /* Estilos para o container do grid */
 .grid-container {
     display: grid;
@@ -128,8 +132,6 @@ footer {
     
 
 }
-
-
 
 
 /* Consultas de mídia para telas menores */
