@@ -98,6 +98,7 @@ footer {
 
 i {
     font-size: 30px;
+    color: rgb(79,145,214);
 }
 
 /* Estilos para o container do grid */
@@ -144,6 +145,6 @@ i {
 
 @media (max-width: 480px) {
     .grid-container {
-        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+        grid-template-columns: repeat(2, 1fr)r; /* 1 coluna em telas muito pequenas */
     }
 }

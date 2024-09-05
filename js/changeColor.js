@@ -17,7 +17,7 @@ function scrollToContent(id) {
     var element = document.getElementById(id);
     element.scrollIntoView({ 
         behavior: 'smooth',             // suavisa a rolagem da oagina
-        block: 'center'             // Centraliza o elemento verticalmente na viewport
+        block: 'start'             // Ajusta a posição do elemento na viewport
     });
     changeColor(id);            // Chama sua função de mudança de cor
 }
