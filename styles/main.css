@@ -145,6 +145,6 @@ i {
 
 @media (max-width: 480px) {
     .grid-container {
-        grid-template-columns: repeat(2, 1fr)r; /* 1 coluna em telas muito pequenas */
+        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
     }
 }
