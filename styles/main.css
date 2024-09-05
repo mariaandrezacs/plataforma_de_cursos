@@ -86,6 +86,7 @@ aside {
     border: 1px solid #ccc;
     border-radius: 15px;
     margin-bottom: 6px;
+    scroll-margin-top: 200px;
 
 }
 
@@ -127,7 +128,7 @@ i {
 /* justify-content: center; Centraliza horizontalmente */
 /*align-items: center; /* Centraliza verticalmente */
 
-.conteudo.active {
+.content.active {
     background: rgb(76, 84, 201);
     
 

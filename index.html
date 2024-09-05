@@ -15,8 +15,9 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#conteudo9" onclick="mudarCor('conteudo9')">Sobre</a></li>
-                <li><a href="#conteudo10" onclick="mudarCor('conteudo10')">Contatos</a></li>
+                <li><a href="#content9" onclick="changeColor('content9')">Sobre</a></li>
+                
+                <li><a href="#content10" onclick="changeColor('content10')">Contatos</a></li>
                 <li><a id="login" href="./templates/login.html">Login</a></li>
             </ul>
         </nav>
@@ -27,41 +28,41 @@
 
             <div class="grid-container">
                 <!-- SÓ OS NOMES DAS LINGUAGENS CLICAVEL
-                <div class="grid-item"><a href="#conteudo1" onclick="mudarCor('conteudo1')">HTML</a></div>
-                <div class="grid-item"><a href="#conteudo2" onclick="mudarCor('conteudo2')">CSS</a></div>
-                <div class="grid-item"><a href="#conteudo3" onclick="mudarCor('conteudo3')">JAVA SCRIPT</a></div>
-                <div class="grid-item"><a href="#conteudo4" onclick="mudarCor('conteudo4')">REACT</a></div>
-                <div class="grid-item"><a href="#conteudo5" onclick="mudarCor('conteudo5')">VUE</a></div>
-                <div class="grid-item"><a href="#conteudo6" onclick="mudarCor('conteudo6')">PYTHON</a></div>
-                <div class="grid-item"><a href="#conteudo7" onclick="mudarCor('conteudo7')">DJANGO</a></div>
-                <div class="grid-item"><a href="#conteudo8" onclick="mudarCor('conteudo8')">FLASK</a></div>  
+                <div class="grid-item"><a href="#content1" onclick="changeColor('content1')">HTML</a></div>
+                <div class="grid-item"><a href="#content2" onclick="changeColor('content2')">CSS</a></div>
+                <div class="grid-item"><a href="#content3" onclick="changeColor('content3')">JAVA SCRIPT</a></div>
+                <div class="grid-item"><a href="#content4" onclick="changeColor('content4')">REACT</a></div>
+                <div class="grid-item"><a href="#content5" onclick="changeColor('content5')">VUE</a></div>
+                <div class="grid-item"><a href="#content6" onclick="changeColor('content6')">PYTHON</a></div>
+                <div class="grid-item"><a href="#content7" onclick="changeColor('content7')">DJANGO</a></div>
+                <div class="grid-item"><a href="#content8" onclick="changeColor('content8')">FLASK</a></div>  
                 -->
                 
 
                 <!-- TODA A DIV CLICAVEL -->
 
-                <div class="grid-item" onclick="location.href='#conteudo1'; mudarCor('conteudo1');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content1'; changeColor('content1');" style="cursor: pointer;">
                     HTML5
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo2'; mudarCor('conteudo2');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content2'; changeColor('content2');" style="cursor: pointer;">
                     CSS3
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo3'; mudarCor('conteudo3');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content3'; changeColor('content3');" style="cursor: pointer;">
                     JAVA SCRIPT
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo4'; mudarCor('conteudo4');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content4'; changeColor('content4');" style="cursor: pointer;">
                     REACT
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo5'; mudarCor('conteudo5');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content5'; changeColor('content5');" style="cursor: pointer;">
                     VUE
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo6'; mudarCor('conteudo6');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content6'; changeColor('content6');" style="cursor: pointer;">
                     PYTHON
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo7'; mudarCor('conteudo7');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content7'; changeColor('content7');" style="cursor: pointer;">
                     DJANGO
                 </div>
-                <div class="grid-item" onclick="location.href='#conteudo8'; mudarCor('conteudo8');" style="cursor: pointer;">
+                <div class="grid-item" onclick="location.href='#content8'; changeColor('content8');" style="cursor: pointer;">
                     FLASK
                 </div>
             </div>
@@ -70,7 +71,7 @@
 
 
 
-        <aside id="conteudo1" class="conteudo">
+        <aside id="content1" class="content">
             <h2>HTML</h2>
             <p>
                 Nível: Básico <br>
@@ -79,7 +80,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo2" class="conteudo">
+        <aside id="content2" class="content">
             <h2>CSS</h2>
             <p>
                 Nível: Básico <br>
@@ -88,7 +89,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo3" class="conteudo">
+        <aside id="content3" class="content">
             <h2>JAVA SCRIPT</h2>
             <p>
                 Nível: Básico <br>
@@ -97,7 +98,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo4" class="conteudo">
+        <aside id="content4" class="content">
             <h2>REACT</h2>
             <p>
                 Nível: Básico <br>
@@ -106,7 +107,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo5" class="conteudo">
+        <aside id="content5" class="content">
             <h2>VUE</h2>
             <p>
                 Nível: Básico <br>
@@ -115,7 +116,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo6" class="conteudo">
+        <aside id="content6" class="content">
             <h2>PYTHON</h2>
             <p>
                 Nível: Básico <br>
@@ -124,7 +125,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo7" class="conteudo">
+        <aside id="content7" class="content">
             <h2>DJANGO</h2>
             <p>
                 Nível: Básico <br>
@@ -133,7 +134,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo8" class="conteudo">
+        <aside id="content8" class="content">
             <h2>FLASK</h2>
             <p>
                 Nível: Básico <br>
@@ -142,7 +143,7 @@
             </p>
         </aside>
 
-        <aside id="conteudo9" class="conteudo" >
+        <aside id="content9" class="content" >
             <h2>
                 Sobre Nós
             </h2>
@@ -155,14 +156,17 @@
             </p>
         </aside>
 
-        <aside id="conteudo10" class="conteudo">
+        <aside id="content10" class="content">
             <h2>Contatos</h2>
     
-                <a href="#"><i class="fa-brands fa-facebook"> </i></a> 
+                <a href="https://www.facebook.com/mariaandrezacs"><i class="fa-brands fa-facebook"> </i></a> 
+
+                <!-- APP BANIDO DO BRASIL KKKK
                 <a href="#"><i class="fa-brands fa-twitter"> </i></a> 
-                <a href="#"><i class="fa-brands fa-instagram"> </i></a>
-                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                -->
+                <a target="_blank" href="https://www.instagram.com/mariaandrezacs/"><i class="fa-brands fa-instagram"> </i></a>
+                <a href="tel:+5511999998888"><i class="fa-solid fa-phone"></i></a>
+                <a href="mailto:mariaandrezacs@gmail.com"><i class="fa-solid fa-envelope"></i></a>
 
         </aside>
 
@@ -195,6 +199,6 @@
     -->
 
     <script src="./js/script.js"></script>
-    <script src="./js/muda_cor.js"></script>
+    <script src="./js/changeColor.js"></script>
 </body>
 </html>
