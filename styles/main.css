@@ -105,10 +105,7 @@ i {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Cria 3 colunas de tamanho igual */
     grid-gap: 10px; /* Espaçamento entre os itens */
-    padding: 10px;
-    
-    
-    
+    padding: 10px; 
 }
 
 /* Estilos para os itens do grid */
@@ -120,8 +117,6 @@ i {
     font-size: 30px;
     border-radius: 15px;
     text-decoration: none;
-    
-    
 }
 
 
